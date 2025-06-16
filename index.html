@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Symbol Selection Modal -->
+    <div class="choose-symbol">
+        <h2>Choose Your Symbol</h2>
+        <div class="symbol-btns">
+            <button id="choose-x">Play as X</button>
+            <button id="choose-o">Play as O</button>
+        </div>
+    </div>
+
+    <!-- Winner Message -->
+    <div class="msg hide">
+        <p id="mssg">WINNER</p>
+        <button id="new">NEW GAME</button>
+    </div>
+
+    <main>
+        <h1>TIC TAC TOE</h1>
+        <div class="container">
+            <div class="game">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <button id="reset">RESET GAME</button>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
